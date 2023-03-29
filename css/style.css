@@ -54,4 +54,19 @@ form {
 
 form button {
   all: unset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+
+  background-color: #7c3aed;
+  border-radius: 4px;
+}
+
+form button:active,
+form button:hover,
+form button:focus {
+  outline: 2px solid black;
+  border-radius: 0.2rem;
 }
